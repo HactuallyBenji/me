@@ -1,0 +1,73 @@
+#script_paragraph {
+width: 60%;
+display: inline-block;
+text-align: left;
+line-height: 1.7;
+font-family: 'Times New Roman', 
+}
+
+.content {
+text-align: center;
+}
+
+#script_mla {
+    text-align: left;
+}
+
+#mySidenav a {
+    position: fixed;
+    left: -280px;
+    transition: 0.4s;
+    padding: 15px;
+    width: 290px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    z-index: 90000;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+#mySidenav a:hover {
+    left: 0 !important;
+}
+
+#about {
+    top: 20px;
+    background-color: #424242;
+}
+
+#blog {
+    top: 80px;
+    background-color: #3a3a3a;
+}
+
+#projects {
+    top: 140px;
+    background-color: #2b2b2b;
+}
+
+#script {
+    top: 200px;
+    background-color: #1b1b1b;
+}
+#recipe {
+    top: 260px;
+    background-color: #1b1b1b;
+}
+#lists {
+    top: 320px;
+    background-color: #1b1b1b;
+}
+
+#heredity {
+    top: 380px;
+    background-color: #1b1b1b;
+}
+
+#epilogue {
+    top: 440px;
+    background-color: #1b1b1b;
+}
